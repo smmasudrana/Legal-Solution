@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss intro</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="w-[1175px] mx-auto p-3.5">
+        <nav class="flex items-center justify-between">
+            <div class="logo flex items-center space-x-0">
+                <img class="" src="./images/logo2.png" alt="">
+            </div>
+            <div class="menu">
+                <ul class="list-none flex gap-7">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a> <i class="fas fa-chevron-right text-sm"></i></li>
+                    <li><a href="#">Cases</a><i class="fas fa-chevron-right text-sm"></i></li>
+                    <li><a href="#">Blogs</a> <i class="fas fa-chevron-right text-sm"></i></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <button class="text-xl text-white bg-[#b68c5a] rounded-lg py-1.5 px-3.5"><a href="#">Free Consultation</a></button>
+        </nav>
+
+        <!-- banner section -->
+         <section class="banner-section bg-[url(./images/banner.png)] my-7 p-10 text-center items-center rounded-md">
+            <h1 class="text-white text-8xl font-bold">We Provide Effective Legal Solutions</h1>
+            <p class="text-white text-xl w-3xl mx-auto mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <form class="gap-3.5" action="">
+                <input class="border border-white border-2 bg-amber-50 py-1.5 px-3.5 rounded-md w-lg" placeholder="Search your services" type="text">
+                <button class="text-xl text-white bg-[#b68c5a] rounded-s-md py-1.5 px-3.5 mt-6">Search</button>
+            </form>
+         </section>
+    </header>
+    <main>  </main>
+    <footer></footer>
+</body>
+</html>
